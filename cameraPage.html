@@ -1,0 +1,22 @@
+<ion-content padding>
+    <div id = "camera_id">
+        Camera Under construction\n
+        (The hell you doing here anyway????)
+    </div>
+
+    <button ion-button round outline id = "temp_button" (click) = "writeToFire()">
+      Upload test data!
+    </button>
+
+    <ion-segment [(ngModel)] = "pages" id = "page_nav">
+        <ion-segment-button value = "camera">
+          Camera
+        </ion-segment-button>
+        <ion-segment-button value = "maps" [navPush] = "goToMap">
+          Map
+        </ion-segment-button>
+        <ion-segment-button value = "album" [navPush] = "goToAlbum">
+          Album
+        </ion-segment-button>
+    </ion-segment>
+</ion-content>
