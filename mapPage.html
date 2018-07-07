@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>
+        Find Your Pics!
+      </ion-title>
+    </ion-navbar>
+</ion-header>
+  
+<ion-content padding>
+    <div #mapRef id="map_id"></div>
+
+    <ion-segment [(ngModel)] = "pages" id = "page_nav">
+      <ion-segment-button value = "camera" [navPush] = "goToCamera">
+        Camera
+      </ion-segment-button>
+      <ion-segment-button value = "maps">
+        Map
+      </ion-segment-button>
+      <ion-segment-button value = "album" [navPush] = "goToAlbum">
+        Album
+      </ion-segment-button>
+    </ion-segment>
+</ion-content>
