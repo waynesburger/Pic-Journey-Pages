@@ -23,8 +23,13 @@ page-album{
         }
     }
 
+    .image-place{
+        background-size: cover;
+        min-height: 200px;
+    }
+
     #page_nav {
-        position: absolute;
+        position: fixed;
         bottom: 0px;
     }
 }
