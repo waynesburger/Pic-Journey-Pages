@@ -1,0 +1,29 @@
+page-view-images{
+
+    #above_tabs_id {
+        width: 100%;
+        height: 94%;
+    }
+
+    .image-place{
+        background-size: cover;
+        min-height: 200px;
+    }
+
+    #page_nav {
+        position: fixed;
+        bottom: 0px;
+        background-color: rebeccapurple;
+    }
+
+    #map_id{
+        width: 400px;
+        height: 400px;
+    }
+
+    #img_prev_id{
+        width: 400px;
+        height: 12px;
+    }
+
+}
