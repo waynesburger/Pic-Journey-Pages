@@ -4,11 +4,15 @@
         (The hell you doing here anyway????)
     </div>
 
-    <button ion-button round outline id = "temp_button" (click) = "writeToFire()">
+    <button ion-button round outline id="temp_button" (click) = "writeToFire()">
       Upload test data!
     </button>
 
-    <ion-segment [(ngModel)] = "pages" id = "page_nav">
+    <button ion-button round outline id="quit_button" navPop>
+      Quit
+    </button>
+
+    <!--<ion-segment [(ngModel)] = "pages" id = "page_nav">
         <ion-segment-button value = "camera">
           Camera
         </ion-segment-button>
@@ -18,5 +22,5 @@
         <ion-segment-button value = "album" [navPush] = "goToAlbum">
           Album
         </ion-segment-button>
-    </ion-segment>
+    </ion-segment>-->
 </ion-content>
